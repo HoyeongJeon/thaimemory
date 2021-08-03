@@ -1,1 +1,13 @@
 @import url("https://cdn.syncfustion.com/ej2/material.css");
+
+.Main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Main div {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}

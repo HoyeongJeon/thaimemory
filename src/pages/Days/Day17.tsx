@@ -1,7 +1,7 @@
 import React from "react";
 
-const Days = () => {
+const Day17 = () => {
   return <div>Days</div>;
 };
 
-export default Days;
+export default Day17;

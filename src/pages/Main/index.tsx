@@ -1,15 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Main.css";
 
 const Main = () => {
   const numbers = [15, 16, 17, 18, 19, 20, 21, 22];
+  // const handleClick = () => {
+  //   console.log(id);
+  // };
   return (
     <div className="Main">
-      {numbers.map((day) => {
+      {numbers.map((day, id) => {
         return (
-          <div className="">
-            <span>{day} </span>
-          </div>
+          <Link to={`day/${day}`}>
+            <div
+              key={day + id}
+              onClick={() => {
+                console.log(day);
+              }}
+            >
+              {day}
+            </div>
+          </Link>
         );
       })}
     </div>
