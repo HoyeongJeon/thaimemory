@@ -1,4 +1,5 @@
-.DayContainer__box img {
+.DayContainer__box img,
+.DayContainer__box video {
   /* position: relative; */
   /* top: -50px; */
   width: 225px;
@@ -15,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: absolute;
 }
 
 .DayContainer img:hover {
@@ -52,3 +53,8 @@
 .noshow {
   display: none;
 }
+/* 
+.Barrier {
+  height: 250px;
+  width: 250px;
+} */

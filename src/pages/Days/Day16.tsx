@@ -30,7 +30,7 @@ const Day16 = () => {
   return (
     <>
       <div className="DayContainer">
-        <span>190316</span>
+        <span>200316</span>
         <div
           onClick={handleClick}
           className={isClicked ? "clickedBox" : "clickedBox noshow"}
