@@ -15,7 +15,7 @@ const Main = () => {
         <div className="Main">
           {numbers.map((day, id) => {
             return (
-              <Link to={`day/${day}`}>
+              <Link to={`/thaimemory/day/${day}`}>
                 <div
                   className="Main__day"
                   key={day + id}

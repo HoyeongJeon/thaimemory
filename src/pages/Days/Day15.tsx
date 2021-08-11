@@ -11,8 +11,10 @@ import bigfoot from "./pictures/day15/bigfoot.jpg";
 import beers from "./pictures/day15/beers.jpg";
 import aiport1 from "./pictures/day15/aiport1.mp4";
 import airport2 from "./pictures/day15/airport2.mp4";
-
+import { Link } from "react-router-dom";
 import "./Day15.css";
+import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
+import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 
 const Day15 = () => {
   return (
@@ -20,21 +22,31 @@ const Day15 = () => {
       <div className="Barrier"></div>
       <div className="DayContainer">
         <span>200315</span>
-        <div className="DayContainer__box">
-          <img src={waytoaiport} alt="day151"></img>
-          <video src={aiport1} controls></video>
-          <video src={airport2} controls></video>
-          <img src={before1} alt="day152"></img>
-          <img src={before2} alt="day153"></img>
-          <img src={selfie} alt="day154"></img>
-        </div>
-        <div className="DayContainer__box">
-          <img src={watpho1} alt="day155"></img>
-          <img src={watpho2} alt="day156"></img>
-          <img src={watpho3} alt="day157"></img>
-          <img src={buddha} alt="day158"></img>
-          <img src={bigfoot} alt="day159"></img>
-          <img src={beers} alt="day1510"></img>
+        <div>
+          <div className="DayContainer__box">
+            <img src={waytoaiport} alt="day151"></img>
+            <video src={aiport1} controls></video>
+            <video src={airport2} controls></video>
+            <img src={before1} alt="day152"></img>
+            <img src={before2} alt="day153"></img>
+            <img src={selfie} alt="day154"></img>
+          </div>
+          <div className="DayContainer__btn">
+            <div className="goBack"></div>
+            <Link to={"/thaimemory/day/16"}>
+              <div className="goNext">
+                <ChevronRightIcon />
+              </div>
+            </Link>
+          </div>
+          <div className="DayContainer__box">
+            <img src={watpho1} alt="day155"></img>
+            <img src={watpho2} alt="day156"></img>
+            <img src={watpho3} alt="day157"></img>
+            <img src={buddha} alt="day158"></img>
+            <img src={bigfoot} alt="day159"></img>
+            <img src={beers} alt="day1510"></img>
+          </div>
         </div>
       </div>
     </>
