@@ -16,36 +16,36 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/thaimemory/">
           <Main />
-          <img className="backgroundImg" src={background} />
+          <img className="backgroundImg" src={background} alt="main" />
           <p>
             "인생에서 비행기를 타고 하늘로 올라가는 몇 초보다 더 해방감을 주는
             시간은 찾아보기 힘들다." - 알랭 드 보통
           </p>
         </Route>
-        <Route path="/day/15">
+        <Route path="/thaimemory/day/15">
           <Day15 />
         </Route>
-        <Route path="/day/16">
+        <Route path="/thaimemory/day/16">
           <Day16 />
         </Route>
-        <Route path="/day/17">
+        <Route path="/thaimemory/day/17">
           <Day17 />
         </Route>
-        <Route path="/day/18">
+        <Route path="/thaimemory/day/18">
           <Day18 />
         </Route>
-        <Route path="/day/19">
+        <Route path="/thaimemory/day/19">
           <Day19 />
         </Route>
-        <Route path="/day/20">
+        <Route path="/thaimemory/day/20">
           <Day20 />
         </Route>
-        <Route path="/day/21">
+        <Route path="/thaimemory/day/21">
           <Day21 />
         </Route>
-        <Route path="/day/22">
+        <Route path="/thaimemory/day/22">
           <Day22 />
         </Route>
       </Switch>

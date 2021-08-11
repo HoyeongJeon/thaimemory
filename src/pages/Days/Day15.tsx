@@ -15,29 +15,26 @@ import airport2 from "./pictures/day15/airport2.mp4";
 import "./Day15.css";
 
 const Day15 = () => {
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const [controls, setControls] = useState<boolean>(false);
-  // videoRef.current?.addEventListener("mouseout", handleMouseOut);
   return (
     <>
       <div className="Barrier"></div>
       <div className="DayContainer">
         <span>200315</span>
         <div className="DayContainer__box">
-          <img src={waytoaiport}></img>
-          <video src={aiport1} ref={videoRef} controls></video>
-          <video src={airport2} ref={videoRef} controls></video>
-          <img src={before1}></img>
-          <img src={before2}></img>
-          <img src={selfie}></img>
+          <img src={waytoaiport} alt="day151"></img>
+          <video src={aiport1} controls></video>
+          <video src={airport2} controls></video>
+          <img src={before1} alt="day152"></img>
+          <img src={before2} alt="day153"></img>
+          <img src={selfie} alt="day154"></img>
         </div>
         <div className="DayContainer__box">
-          <img src={watpho1}></img>
-          <img src={watpho2}></img>
-          <img src={watpho3}></img>
-          <img src={buddha}></img>
-          <img src={bigfoot}></img>
-          <img src={beers}></img>
+          <img src={watpho1} alt="day155"></img>
+          <img src={watpho2} alt="day156"></img>
+          <img src={watpho3} alt="day157"></img>
+          <img src={buddha} alt="day158"></img>
+          <img src={bigfoot} alt="day159"></img>
+          <img src={beers} alt="day1510"></img>
         </div>
       </div>
     </>

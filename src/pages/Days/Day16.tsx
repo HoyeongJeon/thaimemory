@@ -38,25 +38,26 @@ const Day16 = () => {
           <img className="clickedBox__pic" src={popup}></img>
         </div>
         <div className="DayContainer__box">
-          <img src={morning}></img>
-          <img src={morning2}></img>
-          <img src={street}></img>
-          <img src={selfie}></img>
-          <img src={shit}></img>
-          <img src={mikol}></img>
+          <img src={morning} alt="day161"></img>
+          <img src={morning2} alt="day162"></img>
+          <img src={street} alt="day163"></img>
+          <img src={selfie} alt="day164"></img>
+          <img src={shit} alt="day165"></img>
+          <img src={mikol} alt="day166"></img>
         </div>
         <div className="DayContainer__box">
-          <img src={waqqu}></img>
-          <img src={siam}></img>
-          <img src={trash}></img>
+          <img src={waqqu} alt="day167"></img>
+          <img src={siam} alt="day168"></img>
+          <img src={trash} alt="day169"></img>
           <img
             src={nightselfie}
             onClick={handleClick}
             className={isClicked ? "noclicked" : "clicked"}
             ref={() => picRef}
+            alt="day1610"
           ></img>
-          <img src={temple}></img>
-          <img src={lotti} />
+          <img src={temple} alt="day1611"></img>
+          <img src={lotti} alt="day1612"></img>
         </div>
       </div>
     </>
