@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/thaimemory/static/css/main.5f5a9775.chunk.css",
-    "main.js": "/thaimemory/static/js/main.837b3d3c.chunk.js",
-    "main.js.map": "/thaimemory/static/js/main.837b3d3c.chunk.js.map",
+    "main.css": "/thaimemory/static/css/main.7dd24c1c.chunk.css",
+    "main.js": "/thaimemory/static/js/main.87904dea.chunk.js",
+    "main.js.map": "/thaimemory/static/js/main.87904dea.chunk.js.map",
     "runtime-main.js": "/thaimemory/static/js/runtime-main.b3447d2f.js",
     "runtime-main.js.map": "/thaimemory/static/js/runtime-main.b3447d2f.js.map",
-    "static/js/2.36ad557b.chunk.js": "/thaimemory/static/js/2.36ad557b.chunk.js",
-    "static/js/2.36ad557b.chunk.js.map": "/thaimemory/static/js/2.36ad557b.chunk.js.map",
+    "static/js/2.aac859bb.chunk.js": "/thaimemory/static/js/2.aac859bb.chunk.js",
+    "static/js/2.aac859bb.chunk.js.map": "/thaimemory/static/js/2.aac859bb.chunk.js.map",
     "index.html": "/thaimemory/index.html",
-    "static/css/main.5f5a9775.chunk.css.map": "/thaimemory/static/css/main.5f5a9775.chunk.css.map",
-    "static/js/2.36ad557b.chunk.js.LICENSE.txt": "/thaimemory/static/js/2.36ad557b.chunk.js.LICENSE.txt",
+    "static/css/main.7dd24c1c.chunk.css.map": "/thaimemory/static/css/main.7dd24c1c.chunk.css.map",
+    "static/js/2.aac859bb.chunk.js.LICENSE.txt": "/thaimemory/static/js/2.aac859bb.chunk.js.LICENSE.txt",
     "static/media/IMG_2989.82f2e964.mp4": "/thaimemory/static/media/IMG_2989.82f2e964.mp4",
     "static/media/IMG_2991.5eba2671.mp4": "/thaimemory/static/media/IMG_2991.5eba2671.mp4",
     "static/media/IMG_2992.84d48248.mp4": "/thaimemory/static/media/IMG_2992.84d48248.mp4",
@@ -89,8 +89,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b3447d2f.js",
-    "static/js/2.36ad557b.chunk.js",
-    "static/css/main.5f5a9775.chunk.css",
-    "static/js/main.837b3d3c.chunk.js"
+    "static/js/2.aac859bb.chunk.js",
+    "static/css/main.7dd24c1c.chunk.css",
+    "static/js/main.87904dea.chunk.js"
   ]
 }
