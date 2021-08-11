@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/thaimemory/static/css/main.5f5a9775.chunk.css",
-    "main.js": "/thaimemory/static/js/main.509601f4.chunk.js",
-    "main.js.map": "/thaimemory/static/js/main.509601f4.chunk.js.map",
+    "main.js": "/thaimemory/static/js/main.c31040ac.chunk.js",
+    "main.js.map": "/thaimemory/static/js/main.c31040ac.chunk.js.map",
     "runtime-main.js": "/thaimemory/static/js/runtime-main.b3447d2f.js",
     "runtime-main.js.map": "/thaimemory/static/js/runtime-main.b3447d2f.js.map",
     "static/js/2.ffaeca70.chunk.js": "/thaimemory/static/js/2.ffaeca70.chunk.js",
@@ -91,6 +91,6 @@
     "static/js/runtime-main.b3447d2f.js",
     "static/js/2.ffaeca70.chunk.js",
     "static/css/main.5f5a9775.chunk.css",
-    "static/js/main.509601f4.chunk.js"
+    "static/js/main.c31040ac.chunk.js"
   ]
 }
