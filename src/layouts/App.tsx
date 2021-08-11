@@ -7,6 +7,8 @@ import Day17 from "../pages/Days/Day17";
 import Day18 from "../pages/Days/Day18";
 import Day19 from "../pages/Days/Day19";
 import Day20 from "../pages/Days/Day20";
+import Day21 from "../pages/Days/Day21";
+import Day22 from "../pages/Days/Day22";
 import background from "./background/background.jpg";
 import "./App.css";
 
@@ -39,6 +41,12 @@ const App: React.FC = () => {
         </Route>
         <Route path="/day/20">
           <Day20 />
+        </Route>
+        <Route path="/day/21">
+          <Day21 />
+        </Route>
+        <Route path="/day/22">
+          <Day22 />
         </Route>
       </Switch>
     </BrowserRouter>
